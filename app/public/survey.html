@@ -173,6 +173,7 @@
 
             $("#submitButton").on("click", function () {
                 event.preventDefault();
+
                 var userInput = {
                     name: $("#inputName").val().trim(),
                     photo: $("#inputPhotoLink").val().trim(),
@@ -188,19 +189,8 @@
                         $('#question9').val(),
                         $('#question10').val()
                     ]
-                }
-                console.log('userInput = ' + JSON.stringify(userInput));
-
-                // alerts not closing
-                // for (var i = 0; i <userInput.scores.length; i++){
-                //     if (userInput.scores[i] === null){
-                //         alert("please answer all the questions");
-                //     }else if (userInput.name === ""){
-                //         alert("please enter your name");
-                //     }else if (userInput.photo === ""){
-                //         alert("please enter a link to photo image");
-                //     }
-                // }
+                }; 
+                console.log('response = ' + JSON.stringify(userInput))                
             });
         })
     </script>
