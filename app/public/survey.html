@@ -184,6 +184,8 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" id="tryAgain">Try
                         Again</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" id="returnHome" onclick="location.href = 'home.html'">Return Home
+                    </button>
                 </div>
             </div>
         </div>
@@ -230,19 +232,21 @@
                 })
             })
 
+
+
             function reset() {
                 $("#inputName").val("");
                 $("#inputPhotoLink").val("")
                 $('#question1').val(""),
-                $('#question2').val(""),
-                $('#question3').val(""),
-                $('#question4').val(""),
-                $('#question5').val(""),
-                $('#question6').val(""),
-                $('#question7').val(""),
-                $('#question8').val(""),
-                $('#question9').val(""),
-                $('#question10').val("")
+                    $('#question2').val(""),
+                    $('#question3').val(""),
+                    $('#question4').val(""),
+                    $('#question5').val(""),
+                    $('#question6').val(""),
+                    $('#question7').val(""),
+                    $('#question8').val(""),
+                    $('#question9').val(""),
+                    $('#question10').val("")
             }
         })
 
