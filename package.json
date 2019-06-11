@@ -2,10 +2,10 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "app to find your most compatible friend",
-  "main": "FriendFinder/server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node FriendFinder/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
