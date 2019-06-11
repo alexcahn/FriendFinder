@@ -37,17 +37,3 @@ module.exports = function (app) {
         res.json(users[bestFriendIndex]);
     });
 };
-
-    // var randomUser = users[Math.floor(Math.random()*users.length)];
-    //  res.json(randomUser)
-    //  console.log(randomUser)
-
-    //  users.push(req.body);
-
-    //  for (var i = 0; i < users.length; i++){
-    //      if (randomUser === users[i]){
-    //         continue;
-    //      }
-    //  }
-//     });
-// }
