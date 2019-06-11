@@ -8,7 +8,7 @@
     <title>FriendFinder</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
 </head>
 
 <body style="margin: 0 80px;
@@ -218,9 +218,9 @@ margin-bottom: 100px;">
                 url: '/api/friends',
                 data: userInput,
                 dataType: "json"
-            }).done(function (randomUser) {
+            }).done(function (match) {
 
-                $('#userName').text(randomUser.name);
+                $('#userName').text(match.name);
                 $("#userPhoto").attr("src", this.photo);
                 // Pop open the modal dialog
                 $('.modal').show();
