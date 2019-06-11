@@ -1,18 +1,14 @@
-var express = require('express');
-
-var bodyParser = require("body-parser")
-var app = express();
+const express = require('express');
+const path = require('path')
 
 var PORT = 3000;
 
-app.use(express.static('app/public'));
+var app = express();
+
+app.use(express.static(path.join(__dirname, 'app/public')));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.text());
 
 require('./app/routing/apiRoutes')(app);
 require('./app/routing/htmlRoutes')(app);

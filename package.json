@@ -1,5 +1,5 @@
 {
-  "name": "FriendFinder",
+  "name": "friendfinder",
   "version": "1.0.0",
   "description": "app to find your most compatible friend",
   "main": "server.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/alexcahn/FriendFinder.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alex Cahn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexcahn/FriendFinder/issues"
