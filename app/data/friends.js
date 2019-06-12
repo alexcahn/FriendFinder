@@ -1,7 +1,7 @@
 var users = [
     {
         name: 'Homer',
-        photo: 'https://www.google.com/search?q=random+tv+characters&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi-p_2c99ziAhUBnFkKHSziAlkQ_AUIECgB&biw=1280&bih=578#imgrc=Za6kq4c3t_7wzM:',
+        photo: 'https://www.google.com/?q=random+tv+characters&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi-p_2c99ziAhUBnFkKHSziAlkQ_AUIECgB&biw=1280&bih=578#imgrc=Za6kq4c3t_7wzM:',
         scores: [
             '2',
             '5',

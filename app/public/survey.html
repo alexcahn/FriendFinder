@@ -177,7 +177,7 @@ margin-bottom: 100px;">
                 </div>
                 <div class="modal-body">
                     <p id="userName"></p>
-                    <p id="userPhoto"></p>
+                    <img id="userPhoto" src="">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal" id="tryAgain">Try
@@ -221,7 +221,7 @@ margin-bottom: 100px;">
             }).done(function (match) {
 
                 $('#userName').text(match.name);
-                $("#userPhoto").attr("src", this.photo);
+                $("#userPhoto").attr("src", match.photo);
                 // Pop open the modal dialog
                 $('.modal').show();
                 $("#tryAgain").on("click", function () {
